@@ -12,7 +12,6 @@ public class Details_activity extends Activity {
 FragmentManager manager;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
         super.onCreate(savedInstanceState);
         setContentView(R.layout.details_fragment) ;
         Intent intent = getIntent();
